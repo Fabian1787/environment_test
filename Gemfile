@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
-gem "rails", "~> 8.0.3"
+gem "rails", "~> 7.1.0"
 # The modern asset pipeline for Rails [https://github.com/rails/propshaft]
 gem "propshaft"
 # Use postgresql as the database for Active Record
@@ -64,3 +64,7 @@ end
 
 gem 'concurrent-ruby', '1.3.4'
 gem 'yaml_db'
+gem 'rexml'
+gem 'rspec-rails'
+gem 'brakeman'
+gem 'rubocop'
